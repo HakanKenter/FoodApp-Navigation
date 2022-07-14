@@ -13,6 +13,10 @@
 		55508C3D287ECC0E00DE4CEA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55508C3B287ECC0E00DE4CEA /* Main.storyboard */; };
 		55508C3F287ECC1300DE4CEA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 55508C3E287ECC1300DE4CEA /* Assets.xcassets */; };
 		55508C42287ECC1300DE4CEA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55508C40287ECC1300DE4CEA /* LaunchScreen.storyboard */; };
+		55508C4A287ED49500DE4CEA /* CarteController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55508C49287ED49500DE4CEA /* CarteController.swift */; };
+		55508C4C287ED4F900DE4CEA /* Food.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55508C4B287ED4F900DE4CEA /* Food.swift */; };
+		558981A628804FB000125B66 /* FirstContactController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 558981A528804FB000125B66 /* FirstContactController.swift */; };
+		558981A82880772E00125B66 /* DetailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 558981A72880772E00125B66 /* DetailController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		55508C3E287ECC1300DE4CEA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		55508C41287ECC1300DE4CEA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		55508C43287ECC1300DE4CEA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		55508C49287ED49500DE4CEA /* CarteController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarteController.swift; sourceTree = "<group>"; };
+		55508C4B287ED4F900DE4CEA /* Food.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Food.swift; sourceTree = "<group>"; };
+		558981A528804FB000125B66 /* FirstContactController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstContactController.swift; sourceTree = "<group>"; };
+		558981A72880772E00125B66 /* DetailController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +71,10 @@
 				55508C3E287ECC1300DE4CEA /* Assets.xcassets */,
 				55508C40287ECC1300DE4CEA /* LaunchScreen.storyboard */,
 				55508C43287ECC1300DE4CEA /* Info.plist */,
+				55508C49287ED49500DE4CEA /* CarteController.swift */,
+				55508C4B287ED4F900DE4CEA /* Food.swift */,
+				558981A528804FB000125B66 /* FirstContactController.swift */,
+				558981A72880772E00125B66 /* DetailController.swift */,
 			);
 			path = "FoodApp Navigation";
 			sourceTree = "<group>";
@@ -139,8 +151,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				55508C3A287ECC0E00DE4CEA /* ViewController.swift in Sources */,
+				558981A82880772E00125B66 /* DetailController.swift in Sources */,
+				558981A628804FB000125B66 /* FirstContactController.swift in Sources */,
 				55508C36287ECC0E00DE4CEA /* AppDelegate.swift in Sources */,
+				55508C4C287ED4F900DE4CEA /* Food.swift in Sources */,
 				55508C38287ECC0E00DE4CEA /* SceneDelegate.swift in Sources */,
+				55508C4A287ED49500DE4CEA /* CarteController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
